@@ -9,7 +9,7 @@ class Footer extends Component {
     this.state = this.initialState;
   }
   render() {
-    return (<div className="leonis-footer">
+    return (<div className="rauf-footer">
       <Row>
         <Col lg={3} md={6} sm={6} xs={6}>
           <div className="footer-logo-name">

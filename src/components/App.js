@@ -3,7 +3,7 @@ import {Route, Switch, withRouter} from 'react-router-dom';
 
 import Header from './Header/Header';
 import Home from './Home';
-import About from './About';
+import About from './About/About';
 import News from './News';
 import Portfolio from './Portfolio';
 import Team from './Team';

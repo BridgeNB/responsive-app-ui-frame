@@ -7,7 +7,7 @@ class HeaderLinks extends Component {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">Lenois Ventures</a>
+            <a>Lenois Ventures</a>
           </Navbar.Brand>
           <Navbar.Toggle/>
         </Navbar.Header>
