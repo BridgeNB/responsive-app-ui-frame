@@ -6,7 +6,7 @@ import Home from './Home';
 import About from './About/About';
 import News from './News';
 import Portfolio from './Portfolio';
-import Team from './Team';
+import Team from './Team/Team';
 import Contact from './Contact';
 import Footer from './Footer/Footer';
 
