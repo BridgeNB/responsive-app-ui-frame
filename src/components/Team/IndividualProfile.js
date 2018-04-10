@@ -5,22 +5,23 @@ import profileImg from '../../assets/img/Team/teamMember.jpeg';
 
 class IndividualProfile extends Component {
   render() {
+    const {profileTitle, profileName, profileEmail, profilePhone, profileLinkedIn, profileTwitter} = this.props
     return (
       <div>
         <img src={profileImg} />
         <div className="profileTitle">
-          CEO
+          {profileTitle}
         </div>
         <div className="profileName">
-          Shon
+          {profileName}
         </div>
         <div className="profileContact">
-          <span>info@mysite.com</span><br/>
-          <span>+123-456-7890</span>
+          <span>{profileEmail}</span><br/>
+          <span>{profilePhone}</span>
         </div>
         <div className="profileSocialIcon">
-          <FontAwesome name="linkedin" />
-          <FontAwesome name="twitter" />
+          <FontAwesome name="linkedin" href={profileLinkedIn}/>
+          <FontAwesome name="twitter" href={profileTwitter}/>
         </div>
       </div>
     )

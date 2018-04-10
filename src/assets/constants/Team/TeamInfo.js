@@ -1,6 +1,6 @@
 import Img1 from '../../img/Team/teamMember.jpeg';
 
-export const TeamInfo = [
+const TeamInfo = [
   {
     profileImg: {Img1},
     profileTitle: 'CEO',
@@ -29,3 +29,5 @@ export const TeamInfo = [
     profileTwitter: '/'
   }
 ]
+
+export default TeamInfo;
