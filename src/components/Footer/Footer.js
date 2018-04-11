@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import FontAwesome from 'react-fontawesome';
-import {Grid, Col, Row} from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 class Footer extends Component {

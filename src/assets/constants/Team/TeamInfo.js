@@ -27,6 +27,15 @@ const TeamInfo = [
     profilePhone: '+123-456-7890',
     profileLinkedIn: '/',
     profileTwitter: '/'
+  },
+  {
+    profileImg: {Img1},
+    profileTitle: 'CFO',
+    profileName: 'Shon',
+    profileEmail: 'info@mysite.com',
+    profilePhone: '+123-456-7890',
+    profileLinkedIn: '/',
+    profileTwitter: '/'
   }
 ]
 

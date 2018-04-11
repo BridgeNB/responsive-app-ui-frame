@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Navbar, NavItem, Nav, NavDropdown, MenuItem} from 'react-bootstrap';
+import { Navbar, NavItem, Nav } from 'react-bootstrap';
 
 class HeaderLinks extends Component {
   render() {

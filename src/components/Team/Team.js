@@ -11,7 +11,6 @@ class Team extends Component {
         <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
           <br/>et dolore magna aliqua. Ut enim ad minim veniam</p>
       </div>
-      {console.log()}
       <Row>
         {
           TeamInfo.map((individual, index) => {

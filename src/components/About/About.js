@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Carousel, Row, Col } from 'react-bootstrap';
+import { Carousel, Row, Col, Grid } from 'react-bootstrap';
 import { fadeInDown } from 'react-animations';
 
 import slideImg from '../../assets/img/slider_one.jpg';
@@ -15,7 +15,7 @@ const styles = {
 class About extends Component {
   render() {
 
-    return (<div>
+    return (<div className="about-main">
       <div className="center">
         <h2>About Lenois Ventures</h2>
         <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
@@ -35,34 +35,37 @@ class About extends Component {
       </Carousel>
 
       <div className="skill">
-        <div className="center wow fadeInDown">
-          <h2>Our Skill</h2>
-          <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            <br/>et dolore magna aliqua. Ut enim ad minim veniam</p>
-          </div>
-          <Row>
-            <Col sm={3}>
-              <div className="skill-item" style={styles.fadeInDown}>
-                Analytics
+          <Grid>
+            <Row>
+              <div className="center">
+                <h2>Our Skill</h2>
+                <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  <br/>et dolore magna aliqua. Ut enim ad minim veniam</p>
               </div>
-            </Col>
-            <Col sm={3}>
-              <div className="skill-item" style={styles.fadeInDown}>
-                Creativity
-              </div>
-            </Col>
-            <Col sm={3}>
-              <div className="skill-item" style={styles.fadeInDown}>
-                Communications
-              </div>
-            </Col>
-            <Col sm={3}>
-              <div className="skill-item" style={styles.fadeInDown}>
-                Leadership
-              </div>
-            </Col>
-          </Row>
-
+            </Row>
+            <Row className="item-list">
+              <Col sm={3}>
+                <div className="anlytics-item" style={styles.fadeInDown}>
+                  <p>Analytics</p>
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="creativity-item" style={styles.fadeInDown}>
+                  <p>Creativity</p>
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="communication-item" style={styles.fadeInDown}>
+                  <p>Communication</p>
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="leadership-item" style={styles.fadeInDown}>
+                  <p>Leadership</p>
+                </div>
+              </Col>
+            </Row>
+          </Grid>
         </div>
       </div>
       )

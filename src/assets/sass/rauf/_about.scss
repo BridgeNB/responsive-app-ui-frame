@@ -1,3 +1,38 @@
-.carousel-inner > .item  > img {
-  margin: 0 auto;
+.about-main {
+  .carousel-inner > .item  > img {
+    margin: 0 auto;
+    object-fit: fill;
+  }
+  .skill {
+    display: flex;
+    flex-direction: column;
+    .item-list {
+      align-items: center;
+      padding-left: 10%;
+      [class$='item'] {
+        height: 0;
+        width: 50%;
+        border-radius: 50%;
+        padding-bottom: 50%;
+        text-align: center;
+        > p{
+          color: white;
+          padding-top: 40%;
+          font-size: 1.2rem;
+        }
+      }
+      .anlytics-item {
+        background: rgb(45,125,164);
+      }
+      .creativity-item {
+        background: rgb(106,164,47);
+      }
+      .communication-item {
+        background: rgb(255,189,32);
+      }
+      .leadership-item {
+        background: rgb(219,54,21);
+      }
+    }
+  }
 }

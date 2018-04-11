@@ -4,9 +4,6 @@ import { Navbar } from 'react-bootstrap';
 import HeaderLinks from './HeaderLinks.jsx';
 
 class Header extends Component{
-    constructor(props){
-        super(props);
-    }
     render(){
         return (
             <Navbar fluid className="rauf-header">

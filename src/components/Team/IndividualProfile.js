@@ -8,7 +8,7 @@ class IndividualProfile extends Component {
     const {profileTitle, profileName, profileEmail, profilePhone, profileLinkedIn, profileTwitter} = this.props
     return (
       <div>
-        <img src={profileImg} />
+        <img src={profileImg} alt="profileImg"/>
         <div className="profileTitle">
           {profileTitle}
         </div>

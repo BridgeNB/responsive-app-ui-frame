@@ -14,6 +14,10 @@
       background-color: black;
       background-image: none; }
 
+.carousel-inner > .item > img {
+  margin: 0 auto;
+  object-fit: fill; }
+
 .App {
   text-align: center; }
 
@@ -23,10 +27,41 @@
 .social-share li {
   display: inline; }
 
-.carousel-inner > .item > img {
-  margin: 0 auto; }
+.about-main .carousel-inner > .item > img {
+  margin: 0 auto;
+  object-fit: fill; }
+
+.about-main .skill {
+  display: flex;
+  flex-direction: column; }
+  .about-main .skill .item-list {
+    align-items: center;
+    padding-left: 10%; }
+    .about-main .skill .item-list [class$='item'] {
+      height: 0;
+      width: 50%;
+      border-radius: 50%;
+      padding-bottom: 50%;
+      text-align: center; }
+      .about-main .skill .item-list [class$='item'] > p {
+        color: white;
+        padding-top: 40%;
+        font-size: 1.2rem; }
+    .about-main .skill .item-list .anlytics-item {
+      background: #2d7da4; }
+    .about-main .skill .item-list .creativity-item {
+      background: #6aa42f; }
+    .about-main .skill .item-list .communication-item {
+      background: #ffbd20; }
+    .about-main .skill .item-list .leadership-item {
+      background: #db3615; }
 
 .rauf-footer {
-  border-top: 0.2rem solid black; }
+  border-top: 0.2rem solid black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black; }
   .rauf-footer a {
-    color: black; }
+    color: #9d9d9d; }
