@@ -22,9 +22,6 @@ class HeaderLinks extends Component {
             <NavItem eventKey={'News'} href="/News">
               News
             </NavItem>
-            <NavItem eventKey={'Portfolio'} href="/Portfolio">
-              Portfolio
-            </NavItem>
             <NavItem eventKey={'Team'} href="/Team">
               Team
             </NavItem>

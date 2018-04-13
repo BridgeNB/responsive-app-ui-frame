@@ -5,9 +5,9 @@ import Header from './Header/Header';
 import Home from './Home/Home';
 import About from './About/About';
 import News from './News';
-import Portfolio from './Portfolio';
+// import Portfolio from './Portfolio';
 import Team from './Team/Team';
-import Contact from './Contact';
+import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
 class App extends Component {
@@ -19,7 +19,6 @@ class App extends Component {
           <Route path="/" component={Home} exact/>
           <Route path="/About" component={About} exact/>
           <Route path="/News" component={News} exact/>
-          <Route path="/Portfolio" component={Portfolio} exact/>
           <Route path="/Team" component={Team} exact/>
           <Route path="/Contact" component={Contact} exact/>
         </Switch>
